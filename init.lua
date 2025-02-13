@@ -6,7 +6,7 @@ if vim.g.neovide then
   vim.g.neovide_scale_factor = 1.0
   --	vim.g.neovide_transparency = 0.9
 end
-
+-- 编码自动检测,避免打开是乱码
 vim.o.encoding = "utf-8"
 vim.o.fileencodings = "ucs-bom,utf-8,gbk,gb2312,big5,latin1"
 vim.o.fileformats = "unix,dos,mac"
