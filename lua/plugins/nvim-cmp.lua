@@ -4,9 +4,9 @@ return {
     enabled = true,
     dependencies = {
       "hrsh7th/cmp-cmdline", -- 添加命令行补全插件
-      "hrsh7th/cmp-path", -- 添加命令行补全插件
-      "hrsh7th/cmp-buffer", -- 添加命令行补全插件
-      "hrsh7th/cmp-nvim-lsp", -- 添加命令行补全插件
+      "hrsh7th/cmp-path", -- 添加路径补全插件
+      "hrsh7th/cmp-buffer", -- 添加buffer补全插件
+      "hrsh7th/cmp-nvim-lsp",
     },
     opts = function(_, opts)
       local cmp = require("cmp")
