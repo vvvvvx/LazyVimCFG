@@ -7,4 +7,8 @@ if vim.g.neovide then
   --	vim.g.neovide_transparency = 0.9
 end
 
+vim.o.encoding = "utf-8"
+vim.o.fileencodings = "ucs-bom,utf-8,gbk,gb2312,big5,latin1"
+vim.o.fileformats = "unix,dos,mac"
+
 require("config.lazy")

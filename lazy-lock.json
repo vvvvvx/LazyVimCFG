@@ -34,7 +34,7 @@
   "nvim-ts-autotag": { "branch": "main", "commit": "1cca23c9da708047922d3895a71032bc0449c52d" },
   "persistence.nvim": { "branch": "main", "commit": "f6aad7dde7fcf54148ccfc5f622c6d5badd0cc3d" },
   "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
-  "snacks.nvim": { "branch": "main", "commit": "1491b543ef1d8a0eb29a6ebc35db4fb808dcb47f" },
+  "snacks.nvim": { "branch": "main", "commit": "eae55e7ca3b7c33882884a439e12d26200403a66" },
   "text-case.nvim": { "branch": "main", "commit": "e898cfd46fa6cde0e83abb624a16e67d2ffc6457" },
   "todo-comments.nvim": { "branch": "main", "commit": "304a8d204ee787d2544d8bc23cd38d2f929e7cc5" },
   "tokyonight.nvim": { "branch": "main", "commit": "84ea0b5f4651afdf50ececaf6f110fe9d9dc9458" },
