@@ -1,6 +1,8 @@
 return {
   {
     "hrsh7th/nvim-cmp",
+
+    event = "VeryLazy",
     enabled = true,
     dependencies = {
       "hrsh7th/cmp-cmdline", -- 添加命令行补全插件
@@ -14,6 +16,8 @@ return {
       -- 先保留 LazyVim 默认的配置
       opts.mapping = opts.mapping or {}
 
+      -- 保留 LazyVim 默认补全配置
+      local defaults = require("cmp.config.default")()
       -- 配置 `:` 命令行补全
       cmp.setup.cmdline(":", {
         mapping = cmp.mapping.preset.cmdline(),
